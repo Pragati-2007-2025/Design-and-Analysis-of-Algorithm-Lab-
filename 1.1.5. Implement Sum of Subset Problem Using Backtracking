@@ -4,7 +4,7 @@ int a[100], subset[100];
 int ans[100][100], len[100];
 int count = 0;
 int n, target;
-//Roshan Seerwani
+
 void backtrack(int index, int sum, int k)
 {
     if (sum == target)
