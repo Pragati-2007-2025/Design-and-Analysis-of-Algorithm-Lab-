@@ -9,7 +9,6 @@ void dijkstra(int G[MAX][MAX], int n, int startnode) {
 	  int distance[MAX];
     int visited[MAX];
     int parent[MAX];
-
     int i, j, count;
     int nextnode;
     int min;
